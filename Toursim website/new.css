@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.cover img{
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+navbar{
+    position: absolute;
+    right:0;
+}
+li{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+li a{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding: 14px 20px;
+}
+li a.active{
+    text-decoration: none;
+    color:#483391 ;
+}
+.animatedtext{
+    position: absolute;
+    top: 21%;
+    left: 28%;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+.container-fluid{
+    background-color: #251e3e;
+}
+.planbutton{
+    position: absolute;
+    top:47%;
+    left:43%;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 6px;
+    padding: 5px 5px;
+    color: black;
+    background-color: #ba2d0b;
+    background-image: linear-gradient(319deg, #ba2d0b 0%, #fe7f2d 37%, #ffbf46 100%);
+
+    box-shadow: 0px 0px 10px black;
+
+}
+.planbutton hover{
+    color:black
+}
+
+
+.one{
+    width:auto;
+    height:auto;
+    background-color: #251e3e;
+}
+.one img{
+    width: 100%;
+    height: 280px;
+}
+.heading{
+    text-align: center;
+    color: tomato;
+    font-size: 60px;
+}
+.desc{
+    
+    padding: 15px;
+    text-align: center;
+    color: tomato;
+    font-size: large;
+   
+}
+
+.place1{
+    border:2px solid red;
+    height:auto;
+    
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+#fatesagar:hover,#pichola:hover,#badilake:hover,#citypalace:hover,#sukhadiacircle:hover,#sajjangarh:hover,#dudhtalai:hover,#biologicalpark:hover,#nehrugarden:hover,#gangaurghat:hover,#gulabbagh:hover,#rajivgandhipark:hover{
+    opacity:0.7;
+
+}
+.footer{
+    background-color:black;
+    padding: 10px 10px;
+    color: white;
+}
+.socialmedia a:link{
+    color: white;
+}

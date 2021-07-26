@@ -1,0 +1,61 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.main{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    height:15vh;
+    font-size: 25px;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar-nav a{
+    color:white;
+    
+}
+.navbar-toggler{
+    border-color: darkmagenta;
+
+}
+.placestovisit{
+    position: absolute;
+    left:500px;
+    font-style: italic;
+    font-size: 80px;
+    color:white
+    
+}
+.row{
+    border: 1px solid red;
+    margin: 20px;
+    width:100%;
+    height: auto;
+    top:20%;
+    position:absolute;
+}
+.fslake{
+    border: 2px solid green ;
+    height:400px;
+    
+}
+.sajjan{
+    border: 2px solid pink;
+    height:400px;
+}
+.ambrai{
+    border:2px solid yellow;
+    height:400px;
+}
+.pichola{
+    border:2px solid blue;
+    height:400px;
+}
