@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar-background */
+
+.back {
+    background-color: black !important;
+    height: 5em;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.front {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 205, 210);
+}
+
+.front .container {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.content h1 {
+    font-weight: bolder;
+    text-align: center;
+    color: #D83519;
+    font-size: 5vw;
+    padding: 20px 20px;
+    /*mediaquery*/
+}
+
+.content .btn {
+    background-color: #D83519;
+    border-radius: 2rem;
+    margin: auto auto;
+    font-weight: bolder;
+    width: 16vw;
+    height: 6vh;
+    /*mediaquery*/
+}
+
+.content p {
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+.looking-for-music {
+    height: 32rem;
+    background-color: #2941AB;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-position: right center;
+}
+
+.content2 h1 {
+    font-size: 4vw;
+    color: #2DE26D;
+    font-weight: bold;
+}
+
+.content2 p {
+    color: #2DE26D;
+    font-size: 1.5vw;
+}
+
+.content2 .btn {
+    background-color: #2DE26D;
+    color: #2941AB;
+    font-weight: bold;
+    border-radius: 2.5rem;
+    width: 17vw;
+}
+
+.footer {
+    width: 100%;
+    height: 36rem;
+    background-color: black;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    /* border: 1px solid red; */
+    /* flex: 1; */
+    position: absolute;
+    top: 10%;
+}
+
+.company {
+    /* border: 1px solid red; */
+}
+
+.company p,
+.communities p,
+.usefullinks p {
+    color: WHITE;
+}

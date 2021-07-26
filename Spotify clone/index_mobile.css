@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+    .content h1 {
+        line-height: 1.2;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 900;
+        letter-spacing: 0.25px;
+        font-size: 7vw !important;
+    }
+    .content .btn {
+        width: 63vw !important;
+        height: 8vh !important;
+    }
+    .content2 p {
+        font-size: 5vw !important;
+    }
+    .content2 .btn {
+        width: 71vw !important;
+        height: 7vh !important;
+    }
+    .footer {
+        height: 80rem;
+    }
+    .content3 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 10vw;
+    }
+    .content .btn {
+        width: 38vw;
+        height: 9vh;
+        font-size: 1.2rem;
+    }
+    .looking-for-music {
+        background-image: url(https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg);
+        background-position: center center;
+        background-size: auto 115%;
+        background-repeat: no-repeat;
+    }
+    .content2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content2 h1 {
+        font-size: 8vw;
+    }
+    .content2 p {
+        font-size: 3vw;
+    }
+    .content2 .btn {
+        width: 37vw;
+        height: 8vh
+    }
+    .image {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+}
