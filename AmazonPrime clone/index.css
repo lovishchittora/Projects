@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: #1A242E;
+    width: 100%;
+    height: 12 vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.brand-logo {
+    /* border: 1px solid red; */
+    display: inline-block;
+    max-width: 12rem;
+    max-height: 3.2rem;
+    overflow: hidden;
+}
+
+.fas {
+    margin-right: 3px;
+}
+
+.user {
+    display: none;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 10px 35px;
+}
+
+.nav-items>a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.nav-items>a>p:hover {
+    color: aliceblue;
+}
+
+.Welcome {
+    position: relative;
+    width: 100%;
+    height: 73vh;
+    background-size: cover;
+    background-image: url('./Assets/welcome.jpg');
+}
+
+.Welcome::after,
+.one-menbership::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 73vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.content-welcome {
+    position: absolute;
+    height: 65vh;
+    /* border: 1px solid red; */
+    padding: 14vh 5vw;
+    top: 15vh;
+}
+
+.content-welcome h1 {
+    font-size: 2.5rem;
+    /* text-align: left; */
+    color: #fff;
+    line-height: 1.2!important;
+}
+
+h5,
+h6 {
+    font-weight: 100;
+}
+
+.btn {
+    width: 19rem;
+    height: 3rem;
+    font-size: larger;
+}
+
+.great-entertainment {
+    width: 100%;
+    position: relative;
+    height: 73vh;
+    display: flex;
+    background-image: url('./Assets/great-entertainment.jpg');
+    background-size: cover;
+}
+
+.great-entertainment::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 73vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.content-entertainment {
+    position: absolute;
+    padding: 8rem 3rem;
+    top: 0;
+    width: 50%;
+    right: 0;
+    /* border: 1px solid red; */
+}
+
+.one-membership {
+    background-image: url('./Assets/one-membership.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 73vh;
+}
+
+.content-one-menbership {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    padding: 3rem 6rem;
+}
+
+.firetv {
+    background-image: url('./Assets/firetv.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 73vh;
+}
+
+.content-firetv {
+    position: absolute;
+    padding: 3rem 3rem;
+    top: 0;
+    width: 50%;
+    right: 0;
+}
+
+.white {
+    height: auto;
+    background-color: #fff;
+    color: black;
+    padding: 3rem 4rem;
+}
+
+.white-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.family {
+    background-image: url('./Assets/family.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+}
+
+.content-family {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    padding: 3rem 6rem;
+}
+
+.footer {
+    background-color: #222222;
+}
+
+.content-footer {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items a {
+    padding: 0.5rem 0.5rem;
+}

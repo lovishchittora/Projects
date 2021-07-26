@@ -1,0 +1,53 @@
+@media screen and (max-width: 720px) {
+    .user {
+        display: block;
+    }
+    .temp {
+        display: none;
+    }
+    .Welcome {
+        background-image: url('./Assets/welcome_mobile.jpg');
+        height: 50vh;
+        background-size: cover;
+    }
+    .great-entertainment {
+        background-image: url('./Assets/great-entertainment-mobile.jpg');
+        height: 50vh;
+        background-size: cover;
+    }
+    .content-welcome,
+    .content-entertainment,
+    .content-firetv {
+        width: 100%;
+        position: relative;
+        top: 0;
+        text-align: center;
+        padding: 0;
+        height: 50vh;
+    }
+    .one-membership {
+        background-image: url('./Assets/one-membership-mobile.jpg');
+        height: 50vh;
+        background-size: cover;
+    }
+    .firetv {
+        background-image: url('./Assets/firetv-mobile.jpg');
+        height: 50vh;
+        background-size: cover;
+    }
+    .family {
+        background-image: url('./Assets/family-mobile.jpg');
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .content-one-menbership,
+    .content-family {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        top: 0;
+        padding: 0;
+        height: 50vh;
+    }
+}
