@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-new {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    width: 30%;
+    position: absolute;
+    top: 10% !important;
+    left: 10% !important;
+    text-align: left !important;
+    /* transform: translate(15%, 30%); */
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    color: aliceblue;
+    /* width: 10rem; */
+}
+
+.microsoft-edge {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.microsoft-content {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+.response {
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.social-media {
+    display: flex;
+}
+
+footer {
+    background-color: #F2F2F2;
+}
