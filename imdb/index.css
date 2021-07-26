@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
+
+.content {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    padding: 3px;
+    background-color: #181416;
+}
+
+.searchbox {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding: 3px;
+    color: black;
+    font-size: 2rem;
+    outline: none;
+}
+
+.btn {
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.movies {
+    margin: 3rem 0;
+    padding: 1rem;
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.spinner-border {
+    display: none;
+}
+
+.card:hover {
+    translate: scale(0.2, 0.2);
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+
+/* styles for movie.html */
